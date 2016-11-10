@@ -1,4 +1,6 @@
-package anno;
+package sample;
+
+import anno.CommentIsString;
 
 public class SampleUsageCommentIsString {
 	/** foo */

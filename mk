@@ -1,2 +1,2 @@
-javac -d target -cp target:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/../lib/tools.jar src/test/*.java
-javac -d target -cp target:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/../lib/tools.jar -processor test.CommentIsStringProcessor src/test/*.java
+javac -d out -cp /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/../lib/tools.jar src/anno/*.java
+javac -d out -cp out:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/../lib/tools.jar -processor anno.CommentIsStringProcessor testing/src/sample/*.java
