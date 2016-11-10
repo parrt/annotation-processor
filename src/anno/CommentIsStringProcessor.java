@@ -18,7 +18,7 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import java.util.Set;
 
-@SupportedAnnotationTypes({"org.antlr.v4.test.support.CommentIsString"})
+@SupportedAnnotationTypes({"anno.CommentIsString"})
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
 public class CommentIsStringProcessor extends AbstractProcessor {
 	protected JavacElements utilities;

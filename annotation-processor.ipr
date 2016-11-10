@@ -14,7 +14,8 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true">
+      <profile default="true" name="Default" enabled="false">
+        <processor name="anno.CommentIsStringProcessor" />
         <processorPath useClasspath="true">
           <entry name="$PROJECT_DIR$/src/anno/CommentIsStringProcessor.java" />
         </processorPath>
