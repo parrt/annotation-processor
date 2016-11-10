@@ -1,4 +1,4 @@
-package test;
+package anno;
 
 import com.sun.tools.javac.model.JavacElements;
 import com.sun.tools.javac.processing.JavacProcessingEnvironment;
